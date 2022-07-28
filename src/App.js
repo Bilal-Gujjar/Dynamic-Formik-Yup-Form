@@ -1,6 +1,4 @@
-
-import './App.css';
-import CarForm from './components/newform';
+import OwnerFrom from './components/ownerFrom'
 
 
 
@@ -11,8 +9,7 @@ function App() {
 
     
     <div>
-      <CarForm />
-     
+      <OwnerFrom/>
     </div>
 
     
