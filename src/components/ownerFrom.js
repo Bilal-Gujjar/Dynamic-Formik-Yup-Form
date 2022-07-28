@@ -82,7 +82,8 @@ const OwnerForm = () => {
                                                     <div key={index}>
                                                         {
                                                             <div>
-                                                                <><hr/></>
+                                                                <><hr/>
+                                                                <br/></>
                                                                 {index > 0 && <div>
                                                                     <button type="button" onClick={() => arrayHelpers.remove(index)}>Delete</button>
                                                                 </div>}
